@@ -1,24 +1,35 @@
 body {
   background: #4a6741;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
-p {
-  color: #ffd8aa;
+
+nav {
+  background: #2f3e2f;
+  padding: 10px;
 }
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
 h1 {
-  font-weight: bold;
-  color: rgb(255, 255, 255);
+  color: white;
 }
-h3 {
+
+h3, h4 {
   color: #ff8800;
-  float:righ
 }
-li {
+
+p, li {
   color: #ffd8aa;
 }
-h4 {
-  color: #ff8800;
-}
-img {
-  float: right;
-  width:  1390px;
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #ff8800;
 }
